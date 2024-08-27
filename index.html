@@ -20,7 +20,7 @@
     <title>Frontend Mentor | Results summary component</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <!--  -->
+
     <style>
       .attribution {
         font-size: 11px;
@@ -33,78 +33,80 @@
   </head>
   <body>
     <div class="body_wrapper">
-      <div class="results_container">
-        <div class="results_container__content_wrapper">
-          <div class="content_wrapper__headline">Your Result</div>
-          <div class="results_container__numbers">
-            <div class="first">76</div>
-            <span class="second">of 100</span>
-          </div>
-          <div class="results_container__text_wrapper">
-            <div class="great">Great</div>
-            <div class="text_wrapper__subHeadering">
-              You scored higher than 65% of the people who have taken these
-              tests.
+      <div class="results_summary">
+        <div class="results_container">
+          <div class="results_container__content_wrapper">
+            <div class="content_wrapper__headline">Your Result</div>
+            <div class="results_container__numbers">
+              <div class="first">76</div>
+              <span class="second">of 100</span>
+            </div>
+            <div class="results_container__text_wrapper">
+              <div class="great">Great</div>
+              <div class="text_wrapper__subHeadering">
+                You scored higher than 65% of the people who have taken these
+                tests.
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="summary_wrapper">
-        <div class="summary_container_content_wrapper">
-          <div class="summary_wrapper_headline">Summary</div>
-          <div class="summary_content">
-            <div class="reaction color_capsule">
-              <div class="color_capsule__icon_text">
-                <div class="reaction_icon">
-                  <img src="./assets/images/icon-reaction.svg" />
+        <div class="summary_wrapper">
+          <div class="summary_container_content_wrapper">
+            <div class="summary_wrapper_headline">Summary</div>
+            <div class="summary_content">
+              <div class="reaction color_capsule">
+                <div class="color_capsule__icon_text">
+                  <div class="reaction_icon">
+                    <img src="./assets/images/icon-reaction.svg" />
+                  </div>
+                  <div class="reaction_text">Reaction</div>
                 </div>
-                <div class="reaction_text">Reaction</div>
-              </div>
-              <div class="reaction_numbers">
-                <div class="current_value">80</div>
-                <div class="reaction_number_two">/100</div>
-              </div>
-            </div>
-            <div class="memory color_capsule">
-              <div class="color_capsule__icon_text">
-                <div class="memory_icon">
-                  <img src="./assets/images/icon-memory.svg" />
+                <div class="reaction_numbers">
+                  <div class="current_value">80</div>
+                  <div class="reaction_number_two">/100</div>
                 </div>
-                <div class="memory_text">Memory</div>
               </div>
-              <div class="reaction_numbers">
-                <div class="current_value">92</div>
-                <div class="memory_number_two">/100</div>
+              <div class="memory color_capsule">
+                <div class="color_capsule__icon_text">
+                  <div class="memory_icon">
+                    <img src="./assets/images/icon-memory.svg" />
+                  </div>
+                  <div class="memory_text">Memory</div>
+                </div>
+                <div class="reaction_numbers">
+                  <div class="current_value">92</div>
+                  <div class="memory_number_two">/100</div>
+                </div>
               </div>
-            </div>
 
-            <div class="verbal color_capsule">
-              <div class="color_capsule__icon_text">
-                <div class="verbal_icon">
-                  <img src="./assets/images/icon-verbal.svg" />
+              <div class="verbal color_capsule">
+                <div class="color_capsule__icon_text">
+                  <div class="verbal_icon">
+                    <img src="./assets/images/icon-verbal.svg" />
+                  </div>
+                  <div class="verbal_text">Verbal</div>
                 </div>
-                <div class="verbal_text">Verbal</div>
+                <div class="reaction_numbers">
+                  <div class="current_value">61</div>
+                  <div class="verbal_number_two">/100</div>
+                </div>
               </div>
-              <div class="reaction_numbers">
-                <div class="current_value">61</div>
-                <div class="verbal_number_two">/100</div>
+              <div class="visual color_capsule">
+                <div class="color_capsule__icon_text">
+                  <div class="visual_icon">
+                    <img src="./assets/images/icon-visual.svg" />
+                  </div>
+                  <div class="visual_text">Visual</div>
+                </div>
+                <div class="reaction_numbers">
+                  <div class="current_value">72</div>
+                  <div class="visual_number_two">/100</div>
+                </div>
               </div>
             </div>
-            <div class="visual color_capsule">
-              <div class="color_capsule__icon_text">
-                <div class="visual_icon">
-                  <img src="./assets/images/icon-visual.svg" />
-                </div>
-                <div class="visual_text">Visual</div>
-              </div>
-              <div class="reaction_numbers">
-                <div class="current_value">72</div>
-                <div class="visual_number_two">/100</div>
-              </div>
-            </div>
+            <button class="continue_button">Continue</button>
           </div>
-          <button class="continue_button">Continue</button>
         </div>
       </div>
     </div>
